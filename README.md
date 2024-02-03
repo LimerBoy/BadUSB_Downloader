@@ -4,13 +4,13 @@ Download &amp; Execute file using DigiSpark ATtiny85, RubberDucky or Arduino Pro
 
 ## 🔌 Devices tested:
 + [USB Rubber ducky (Doesn't support ALT Codes)](https://shop.hak5.org/products/usb-rubber-ducky) 
-+ [ATtiny85 Digispark (Doesn't support ALT Codes)](https://www.aliexpress.com/item/1005005100542239.htm)
++ [ATtiny85 Digispark (Doesn't support ALT Codes)](https://www.aliexpress.com/w/wholesale-Digispark-attiny85.html)
 + [Arduino Pro Micro (Supports ALT Codes)](https://www.aliexpress.com/w/wholesale-arduino-pro-micro.html)
 
 
 
 <details>
-<summary> ❔ What are Alt Codes?</summary>
+<summary> ❔ What is Alt Codes</summary>
 Alt codes are a method of typing characters that are not readily available on a keyboard by pressing the `Alt` key in combination with a numeric code on the numeric keypad. For example, `Alt + 065` produces an uppercase 'A'.
 So alt codes will work even if OS doesn't have installed English layout.
 </details>
