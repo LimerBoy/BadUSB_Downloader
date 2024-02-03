@@ -1,13 +1,23 @@
 
 # 💣 BadUSB Downloader
-Download &amp; Execute file using DigiSpark ATtiny85 or RubberDucky
+Download &amp; Execute file using DigiSpark ATtiny85, RubberDucky or Arduino Pro Micro.
 
-## 🔌 Devices used:
-+ [USB Rubber ducky](https://shop.hak5.org/products/usb-rubber-ducky) 
-+ [ATtiny85 Digispark](https://www.aliexpress.com/item/1005005100542239.htm)
+## 🔌 Devices tested:
++ [USB Rubber ducky (Doesn't support ALT Codes)](https://shop.hak5.org/products/usb-rubber-ducky) 
++ [ATtiny85 Digispark (Doesn't support ALT Codes)](https://www.aliexpress.com/item/1005005100542239.htm)
++ [Arduino Pro Micro (Supports ALT Codes)](https://www.aliexpress.com/w/wholesale-arduino-pro-micro.html)
 
-## ✨ Digispark support for Arduino IDE
 
+
+<details>
+<summary> ❔ What are Alt Codes?</summary>
+Alt codes are a method of typing characters that are not readily available on a keyboard by pressing the `Alt` key in combination with a numeric code on the numeric keypad. For example, `Alt + 065` produces an uppercase 'A'.
+So alt codes will work even if OS doesn't have installed English layout.
+</details>
+
+
+<details>
+<summary> ✨ Digispark support for Arduino IDE</summary>
 To add support for Digistump boards (like the Digispark) to the Arduino IDE, you need to install the Digistump board definitions. Here's how you can do it:
 
 1. **Open Arduino IDE**: Start the Arduino IDE on your computer.
@@ -37,9 +47,15 @@ To add support for Digistump boards (like the Digispark) to the Arduino IDE, you
    - Connect your Digistump board to your computer.
    - You might need to follow specific procedures for uploading sketches, as some Digistump boards do not use a standard bootloader like other Arduino boards.
 
+</details>
 
-
-## ⭐ Some helpful links
+<details>
+<summary> ⭐ Some helpful links</summary>
+   
 + [DuckyScript Encoder](https://payloadstudio.hak5.org/community/)
 + [Download Arduino IDE](https://www.arduino.cc/en/software)
 + [Digistump Drivers](https://github.com/digistump/DigistumpArduino/releases)
+  
+</details>
+
+
