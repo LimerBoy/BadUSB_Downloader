@@ -26,7 +26,7 @@ To add support for Digistump boards (like the Digispark) to the Arduino IDE, you
    - Go to `File` > `Preferences`.
    - In the "Additional Boards Manager URLs" field, add the following URL:
      ```
-     https://drazzy.com/package_drazzy.com_index.json
+     https://raw.githubusercontent.com/ArminJo/DigistumpArduino/master/package_digistump_index.json
      ```
    - If there are already URLs in that field, separate them with commas.
    - Click "OK" to close the Preferences window.
